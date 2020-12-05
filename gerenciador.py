@@ -16,7 +16,7 @@ class Gerenciador:
             return Gerenciador._instancia
 
     def __init__(self):
-        self.ag = Agencia("Azul")
+        self.ag = Agencia("Agencia")
 
         voo1 = vooDec(SSA(), BER())
 
